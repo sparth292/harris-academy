@@ -12,7 +12,7 @@
          * Preloader
          ***********************************************/
 
-        jQuery(window).load(function () {
+        jQuery(window).on("load", function () {
             jQuery("#status").fadeOut();
             jQuery("#preloader").delay(10).fadeOut("slow");
         });
