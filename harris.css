@@ -70,13 +70,88 @@ section.bg-gray2 {
   margin-top: auto;
   align-self: flex-start;
 }
-@media (max-width: 768px) {
+.navbar-toggle {
+  z-index: 9999;
+}
+.navbar-collapse {
+  z-index: 9998;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 991px) {
+  section, .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  .section-small {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .intro .intro-body {
+    padding: 130px 20px 50px;
+  }
   .intro h1 {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 36px !important;
+    line-height: 40px !important;
   }
   .introhalf h1 {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 30px !important;
+    line-height: 34px !important;
+  }
+  .intro h4 {
+    font-size: 16px;
+  }
+  .grid-pad > div[class*="col-"] {
+    margin-bottom: 25px;
+  }
+  .grid-pad > div[class*="col-"] a > img,
+  .grid-pad > div[class*="col-"] > img {
+    height: 180px;
+  }
+  .contact h2 {
+    font-size: 24px;
+  }
+  .footer .text-right {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .navbar-custom .navbar-nav {
+    margin: 0;
+  }
+  .navbar-custom .navbar-nav > li > a {
+    padding: 10px 15px;
+    text-align: center;
+  }
+  .navbar-custom .navbar-collapse {
+    background: #1a1a1a;
+    border: none;
+  }
+  .navbar-custom .navbar-collapse a {
+    color: #fff;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 28px !important;
+    line-height: 32px !important;
+  }
+  .introhalf h1 {
+    font-size: 24px !important;
+    line-height: 28px !important;
+  }
+  .grid-pad > div[class*="col-"] a > img,
+  .grid-pad > div[class*="col-"] > img {
+    height: 160px;
+  }
+  section, .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .section-small {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
