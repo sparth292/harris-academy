@@ -76,10 +76,10 @@
 
         $(window).scroll(function () {
 
-            var nav = $('.navbar-Concept');
+            var nav = $('.navbar-custom');
             if (nav.length) {
 
-                if ($(".navbar-Concept").offset().top > 50) {
+                if ($(".navbar-custom").offset().top > 50) {
                     $(".navbar-fixed-top").addClass("top-nav-collapse");
                 } else {
                     $(".navbar-fixed-top").removeClass("top-nav-collapse");
