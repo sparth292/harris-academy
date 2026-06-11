@@ -1,5 +1,5 @@
 .navbar-custom.top-nav-collapse {
-  background-color: rgba(26, 26, 26, 0.85);
+  background-color: #333;
 }
 .navbar-custom.top-nav-collapse a {
   color: #fff;
@@ -8,10 +8,10 @@
   display: none;
 }
 .navbar-custom.top-nav-collapse .navbar-brand .logo {
-  display: none;
+  display: inline-block;
 }
 .navbar-custom.top-nav-collapse .navbar-brand .logodark {
-  display: inline-block;
+  display: none;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.3);
