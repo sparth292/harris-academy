@@ -1,0 +1,82 @@
+.navbar-custom.top-nav-collapse {
+  background-color: #1a1a1a;
+}
+.navbar-custom.top-nav-collapse a {
+  color: #fff;
+}
+.navbar-custom .navbar-brand .logodark {
+  display: none;
+}
+.navbar-custom.top-nav-collapse .navbar-brand .logo {
+  display: none;
+}
+.navbar-custom.top-nav-collapse .navbar-brand .logodark {
+  display: inline-block;
+}
+.intro .overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.grid-pad a img:hover {
+  opacity: 1;
+}
+.bg-dark {
+  background: #1a1a1a;
+  color: #fff;
+}
+.bg-dark .dark-gray {
+  color: #aaa;
+}
+footer a {
+  color: #555;
+}
+footer a:hover {
+  color: #000;
+}
+.grid-pad h5 {
+  margin: 15px 0 5px;
+}
+.embed-responsive {
+  margin-bottom: 10px;
+}
+.introhalf h1 {
+  font-size: 54px;
+  line-height: 60px;
+}
+.section-small h2 + h4 {
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+section.bg-gray2 {
+  background-color: #f1f1f1;
+}
+.row.grid-pad {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-pad > div[class*="col-"] {
+  display: flex;
+  flex-direction: column;
+  float: none;
+  margin-bottom: 30px;
+}
+.grid-pad > div[class*="col-"] a > img,
+.grid-pad > div[class*="col-"] > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+.grid-pad > div[class*="col-"] .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .introhalf h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
